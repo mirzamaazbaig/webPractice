@@ -41,6 +41,7 @@ border
 padding */
 .box {
     background-image: url(../img/hamster2.jpg);
+    
     padding: 150px;
     margin: 100px;
     background-size: 50%;
