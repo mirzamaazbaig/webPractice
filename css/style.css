@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-size: 21px;
+}
+
+p {
+    color: #ffa500;
+}
+
+h1 {
+    color: purple;
+    font-size: 70px;
+}
+
+a {
+    font-size: 20px;
+}
+
+/* div {
+    background: rgb(73, 2, 14);
+    width: 500px;
+} */
+.top-section {
+    background: rgb(73, 2, 14);
+    width: 700px;
+}
+
+.bottom-section {
+    background: #221704;
+    width: 500px;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+/* This is css box model*/
+/* margin
+border
+padding */
+.box {
+    background: pink;
+    width: 300px;
+
+    margin: 50px;
+
+    /* border-left-width: 5px;
+    border-left-color: red;
+    border-left-style: solid;
+
+    border-right-width: 20px;
+    border-right-color: green;
+    border-right-style: solid; */
+    /* border: 5px solid red; */
+    border: 5px solid red;
+    border-right: 5px solid green;
+    border-style: double;
+
+    padding: 100px;
+}
