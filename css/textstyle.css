@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-size: 21px;
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    /* usee of the font which is on someone p 
+    we avoid this we use something called font stack
+    font-family: sans-serif, Futura, ...;
+    https://www.cssfontstack.com/
+    
+    */
+
+
+}
+
+p {
+    color: #ffa500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.bolder {
+    /* text-align: center; 
+    text-align: justify; */
+    text-decoration: line-through;
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+}
+
+h1 {
+    color: purple;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
