@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    font-size: 21px;
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    text-align: center;
+}
+
+p {
+    color: #ffa500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.bolder {
+    text-decoration: line-through;
+}
+
+h1 {
+    color: purple;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: aquamarine;
+}
+
+/* This is a sudo class */
+a {
+    text-decoration: none;
+}
+
+/* should be in the following  order*/
+/* a:link {
+    color: yellowgreen;
+}
+
+a:visited {
+    color: pink;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: brown;
+} */
+
+.body-text {
+    background-color: #295435;
+    padding: 50px;
+}
+
+.body-text p {
+    color: antiquewhite;
+}
+
+.body-text a {
+    color: #6d8041;
+}
+
+.body-text a:hover {
+    color: cadetblue;
+}
+
+/* .body-text .important-link,
+.important-link {
+    color: magenta;
+} */
+.important-link {
+    color: magenta !important;
+}
+
+ol {
+    list-style-type: upper-roman;
+    background-color: #6d8041;
+    padding: 50px;
+    list-style-position: inside;
+}
+
+ol li {
+    /* background-color: rgb(56, 92, 92); */
+    margin-bottom: 15px;
+}
+
+ul {
+    background-color: rgb(98, 78, 52);
+    list-style-image: url(../img/icons8-arrow-16.png);
+    padding: 50px;
+}
+
+ul li {
+    background-color: rgb(26, 37, 94);
+    margin-bottom: 15px;
+}
